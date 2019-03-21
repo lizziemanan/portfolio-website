@@ -1,0 +1,177 @@
+/*********BASE********/
+
+body{
+    background-color: #1f202b;
+    color: white;
+    font-family: 'montserrat', sans-serif;
+}
+
+.titles{
+    color: #fa0075;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 36px;
+    font-weight: normal;
+    padding-left: 50px;
+}
+
+/*******GRID*********/
+
+.full-width{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.half-width{
+    width: 700px;
+    float: left;
+}
+
+.thrid-width{
+    width: 400px;
+    float: left;
+}
+
+/*************HEADER*************/
+
+header{
+    height: 800px;
+}
+
+#name{
+    font-size: 17px;
+}
+
+header nav{
+    float: right;
+    font-size: 30px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: white;
+    padding: 0 10px 10px 10px;
+    text-decoration: none;
+}
+
+header h2{
+    background-image: url("../img/hero.jpg");
+    font-family: 'Source Code Pro', monospace;
+    font-size: 72px;
+    padding: 300px 0 300px 100px;
+}
+
+h2 span{
+    color: #fa0075;
+}
+
+/**************WORK************/
+
+#work{
+    height: 1545px;
+}
+
+#work h2{
+    margin: 55px 0 105px 0;
+}
+
+#work h4{
+    margin: 0px 0 40px 0;
+}
+
+#work a{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 18px;
+    text-decoration: none;
+}
+
+#work img{
+    border: 1px solid #b7b7b7;
+    margin: 0 40px 40px 40px;
+    width: 600px;
+}
+
+#work p{
+    font-size: 24px;
+}
+
+#work #align-right{
+    float: right;
+    margin: 40px 0px 0px 0px;
+}
+
+#work #project-three{
+    padding: 40px 0 40px 0;
+}
+
+/**************ABOUT****************/
+
+#about{
+    color: black;
+    font-size: 24px;
+    height: 550px;
+    background-image: url('../img/about-me.png')
+}
+
+#about h2{
+    margin: 50px 0 70px 0;
+}
+
+#about h4{
+    margin-left: 100px;
+}
+
+#about p{
+    margin-left: 100px;
+}
+
+#about img{
+    margin: 20px 0 0 150px;
+}
+
+/********CONTACT***********/
+
+#contact{
+    height: 450px;
+    text-align: center;
+}
+
+#contact #social-media h2{
+    padding-left: 43px;
+}
+
+#contact h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#contact #social-media{
+    padding: 0 0 0 105px;
+}
+
+#contact #location{
+    padding: 0 0 0 80px;
+}
+
+#contact p{
+    font-size: 24px;
+}
+
+#contact a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#contact h5{
+    padding-left: 53px;
+}
