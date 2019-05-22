@@ -150,7 +150,8 @@ h2 span{
 }
 
 #about img{
-    margin: 20px 0 0 150px;
+    height: 350px;
+    width: 450px;
 }
 
 /********CONTACT***********/
